@@ -12,6 +12,7 @@ export const SidebarContainer = styled.aside`
   align-items: center;
   top: 0;
   transition: 0.3s ease-in-out;
+  // Set up isOpen function if tru show side bar if not hide it (that is -1000px)
   right: ${({ isOpen }) => (isOpen ? '0' : '-1000px')};
 
   @media screen and (max-width: 400px) {
@@ -19,6 +20,7 @@ export const SidebarContainer = styled.aside`
   }
 `;
 
+// little X on top right side of side bar
 export const CloseIcon = styled(FaTimes)`
   color: #000;
 `;
