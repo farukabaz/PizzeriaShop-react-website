@@ -10,12 +10,12 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <GlobalStyle/>
-      <Hero/>
-      <Products heading='Choose your favorite' data ={productData}/>
-      <Feature/>
-      <Products heading='Sweeet threats for you' data ={productDataTwo}/>
-      <Footer/>
+      <GlobalStyle />
+      <Hero />
+      <Products heading='Choose your favorite' data={productData} />
+      <Feature />
+      <Products heading='Sweet Treats for You' data={productDataTwo} />
+      <Footer />
     </Router>
   );
 }
